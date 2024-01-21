@@ -1,0 +1,36 @@
+.d-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-flex-between-end{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.d-flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.d-flex-start-stretch{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.d-flex-end-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+

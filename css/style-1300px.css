@@ -1,0 +1,157 @@
+.nav-block {
+    justify-content: space-evenly;
+}
+
+.offer__info {
+    padding: 0px 18px;
+}
+
+
+.completed-projects {
+    padding: 107px 18px 90px;
+    gap: 20px;
+    
+}
+
+.completed-projects__info{
+    min-width: 300px;
+    width: 300px;
+}
+
+.completed-projects__projects{
+    width: 100%;
+}
+
+.completed-projects__info__about-project {
+    gap: 20px;
+}
+
+.repair__cards,
+.clients__cards {
+    padding: 0px 18px;
+    gap: 15px;
+}
+
+.feedback-second__fields {
+    gap: 188px;
+    margin-right: 18px;
+}
+
+.realize__info {
+    padding: 0px 18px;
+}
+
+
+
+.feedback-second__fields form {
+    position: relative;
+    z-index: 2;
+}
+
+
+@media screen and (max-width: 1152px) {
+    .feedback-second {
+        justify-content: space-between;
+        gap: 0px;
+        padding: 0px 18px;
+    }
+
+    .realize__info {
+        padding: 0px 18px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .none1024 {
+        display: none;
+    }
+
+    .nav-block {
+        justify-content: space-between;
+        padding: 0px 18px;
+    }
+
+    .repair__cards {
+        flex-direction: column;
+    }
+
+    .repair__cards__card {
+        width: 100%;
+
+    }
+
+    .repair__cards__card img {
+        height: 50vw;
+        object-fit: cover;
+    }
+
+    .repair__cards__card figcaption {
+        margin-left: 0px;
+        margin-right: auto;
+    }
+
+    .repair__cards__card ul{
+        column-count: 2;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .realize__info__photos{
+        width: 600px;
+    }
+    .realize__info__photos__item{
+        width: 100%;
+    }
+    .map-info{
+        padding: 274px 18px;
+    }
+    .none992{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 923px){
+    .realize__info__photos{
+        gap: 10px;
+    }
+
+    .clients__cards{
+        flex-direction: column;
+    }
+    
+    .clients__cards__card{
+        text-align: center;
+    }
+    .clients__cards__card figure{
+        flex-direction: column;
+    }
+    .clients__cards__card img{
+        width: 200px;
+    }
+    .clients__cards__card div{
+        width: max-content;
+        margin: 0 auto !important;
+    }
+    .feedback-third{
+        width: calc(100% - 36px);
+    }
+    .completed-projects__projects img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 868px){
+    .online-control-video{
+        width: calc(100% - 36px);
+    }
+    .feedback-second__fields form{
+        min-width: 350px;
+        width: 350px;
+    }
+    .realize__info{
+        padding: 50px 18px;
+    }
+}

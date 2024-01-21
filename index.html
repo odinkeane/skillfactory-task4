@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/flex-variant.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1300px)" href="css/style-1300px.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/style-768px.css">
+
+</head>
+
+<body>
+    <main>
+        <section class="container_black">
+            <section class="completed-projects w1170 mauto">
+                <div class="d-flex-between">
+                    <h2 class="uppercase font-yeseva title-text">completed <br> projects</h2>
+                    <div class="d-flex-start font-yeseva uppercase completed-projects__variants">
+                        <p onclick="openVariant('0')" class="completed-projects__variants__variant title-text title-text_underline pointer">Rostov-on-Don, Admiral</p>
+                        <p onclick="openVariant('1')" class="completed-projects__variants__variant pointer">Sochi Thieves</p>
+                        <p onclick="openVariant('2')" class="completed-projects__variants__variant pointer">Rostov-on-Don Patriotic</p>
+                    </div>
+                </div>
+                <div class="completed-projects__slider">
+                    <div class="completed-projects__slider__element d-flex-between">
+                        <div class="completed-projects__info">
+                            <p>Only a small part of the work performed by our company is presented on the site. For 14
+                                years
+                                on
+                                in
+                                the construction
+                                market we have made happy more than 1000 families</p>
+
+                            <div class="completed-projects__info__about-project">
+                                <div>
+                                    <h3 class="uppercase font-yeseva title-text">City:</h3>
+                                    <p>Rostov-on-Don <br>LCD admiral</p>
+                                </div>
+                                <div>
+                                    <h3 class="uppercase font-yeseva title-text">apartment area:</h3>
+                                    <p>81<sup>2</sup></p>
+                                </div>
+                                <div>
+                                    <h3 class="uppercase font-yeseva title-text">Repair time:</h3>
+                                    <p>3.5 months</p>
+                                </div>
+                                <div>
+                                    <h3 class="uppercase font-yeseva title-text">Repair Cost:</h3>
+                                    <p>Upon request</p>
+                                </div>
+                            </div>
+                        </div>
+                        <figure class="completed-projects__projects none768">
+                            <img src="images/slider-1.png" alt="completed project">
+                        </figure>
+                    </div>
+                    <div class="completed-projects__slider__element d-flex-between">
+                        <div class="completed-projects__info">
+                            <p>Only a small part of the work performed by our company is presented on the site. For 14
+                                years
+                                on
+                                in
+                                the construction
+                                market we have made happy more than 1000 families</p>
+
+                            <div class="completed-projects__info__about-project">
+                                <div>
+                                    <h3 class="uppercase font-yeseva title-text">City:</h3>
+                                    <p>Sochi
+                                         <br>Thieves</p>
+                                </div>
+                                <div>
+                                    <h3 class="uppercase font-yeseva title-text">apartment area:</h3>
+                                    <p>105<sup>2</sup></p>
+                                </div>
+                                <div>
+                                    <h3 class="uppercase font-yeseva title-text">Repair time:</h3>
+                                    <p>4 months</p>
+                                </div>
+                                <div>
+                                    <h3 class="uppercase font-yeseva title-text">Repair Cost:</h3>
+                                    <p>Upon request</p>
+                                </div>
+                            </div>
+                        </div>
+                        <figure class="completed-projects__projects none768">
+                            <img src="images/slider-2.png" alt="completed project">
+                        </figure>
+                    </div>
+                    <div class="completed-projects__slider__element d-flex-between">
+                        <div class="completed-projects__info">
+                            <p>Only a small part of the work performed by our company is presented on the site. For 14
+                                years
+                                on
+                                in
+                                the construction
+                                market we have made happy more than 1000 families</p>
+
+                            <div class="completed-projects__info__about-project">
+                                <div>
+                                    <h3 class="uppercase font-yeseva title-text">City:</h3>
+                                    <p>Rostov-on-Don
+                                         <br>Patriotic</p>
+                                </div>
+                                <div>
+                                    <h3 class="uppercase font-yeseva title-text">apartment area:</h3>
+                                    <p>93<sup>2</sup></p>
+                                </div>
+                                <div>
+                                    <h3 class="uppercase font-yeseva title-text">Repair time:</h3>
+                                    <p>3 months</p>
+                                </div>
+                                <div>
+                                    <h3 class="uppercase font-yeseva title-text">Repair Cost:</h3>
+                                    <p>Upon request</p>
+                                </div>
+                            </div>
+                        </div>
+                        <figure class="completed-projects__projects none768">
+                            <img src="images/slider-3.png" alt="completed project">
+                        </figure>
+                    </div>
+                </div>
+                <div class="completed-projects__info__pagination d-flex-start none768">
+                    <img class="pointer btn-prev" src="images/icons/left.svg" alt="left">
+                    <div class="completed-projects__info__pagination__circles d-flex-start">
+                        <img onclick="openVariant('0')" class="pointer completed-projects__info__pagination__circles__circle completed-projects__info__pagination__circles__circle_on" src="images/icons/circle.svg" alt="circle">
+                        <img onclick="openVariant('1')" class="pointer completed-projects__info__pagination__circles__circle" src="images/icons/circle.svg" alt="circle">
+                        <img onclick="openVariant('2')" class="pointer completed-projects__info__pagination__circles__circle" src="images/icons/circle.svg" alt="circle">
+                    </div>
+                    <img class="pointer btn-next" src="images/icons/rigth.svg" alt="right">
+                </div>
+            </section>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

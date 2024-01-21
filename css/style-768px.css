@@ -1,0 +1,260 @@
+.nav-block{
+    padding: 22px 18px;
+    height: max-content;
+}
+
+nav, .nav-block__telephone button{
+    display: none;
+}
+
+.nav-block__telephone{
+    color: white;
+
+}
+
+.offer__info{
+    width: 100%;
+    padding: 18px;
+    font-size: 14px;
+}
+
+h1{
+    font-size: 23px;
+}
+
+.offer__info__buttons{
+    flex-direction: column;
+}
+
+.offer__info__buttons button{
+    width: 100%;
+}
+
+.none768{
+    display: none;
+}
+
+
+.completed-projects{
+    flex-direction: column;
+    width: 100%;
+}
+
+.completed-projects__info{
+    width: 100%;
+    max-width: none;
+    text-align: center;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.completed-projects__projects{
+    margin: 0 auto;
+    
+}
+
+.completed-projects__info__images{
+    display: block;
+    width: 100%;
+}
+
+.completed-projects__projects img, .completed-projects__info__images img{
+    width: 100%;
+}
+
+.completed-projects__info__images img{
+    height: 50vh;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+.control p, .repair__types , .clients__types p:first-child{
+    font-size: 22px;
+    text-align: center;
+}
+.online-control-video{
+    margin: 18px;
+    width: auto;
+}
+.under-video{
+    background-color: var(--black-color18);
+    padding: 262px 18px 60px;
+    margin-top: -470px;
+    margin-bottom: 0px;
+}
+.under-video__info{
+    color: var(--white-color) !important;
+    font-size: 11px !important;
+}
+
+.feedback{
+    background-color: var(--black-color18);
+    color: var(--white-color) !important;
+    position: relative;
+}
+
+.feedback__fields{
+    flex-direction: column;
+    padding: 0px 18px;
+    
+}
+
+
+.feedback__fields label{
+    color: var(--white-color-a50);
+}
+
+.feedback__fields__field::placeholder, .feedback__fields__field{
+    color: var(--white-color);
+}
+
+.feedback__fields div:nth-child(2){
+    padding: 63px 18px 80px;
+}
+
+.feedback>div:nth-child(2){
+    position: absolute;
+    left: 18px;
+    top: 180px;
+}
+.feedback__fields
+.feedback__fields__field, .feedback label{
+    width: inherit;
+    
+}
+
+.feedback__fields>div{
+    width: 100%;
+   
+}
+
+.feedback__fields input[type="submit"]{
+    transform: translateY(25px);
+    width: 100%;
+    
+}
+
+
+.repair__cards{
+    flex-direction: column;
+    padding: 0px 18px;
+}
+
+.repair__cards__card{
+    width: 100%;
+}
+.repair__cards__card img{
+    height: 365px;
+    object-fit: cover;
+}
+
+.repair__cards__card figcaption{
+    width: max-content;
+    margin: 223px auto 0px 0px;
+}
+
+.realize{
+    background: none;
+    margin: 55px auto 0px;
+    padding: 0px 18px;
+}
+
+.realize__info{
+    flex-direction: column;
+}
+
+
+.realize__info__photos{
+    display: block;
+    width: 100%;
+    z-index: 2;
+    margin-top: 22px;
+}
+
+.realize__info__photos__item{
+    height: 50vw;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+    transform: translateY(0%);
+}
+
+.feedback-third{
+    transform: translateY(0%);
+    padding-top: 176px;
+    margin-top: -121px;
+    padding: 176px 0px 35px;
+}
+
+.realize__info__photos__item:nth-child(2n+1) {
+    transform: translateY(0%);
+}
+
+.feedback__fields div:nth-child(2){
+    padding: 63px 0px;
+}
+
+.feedback-third, .realize__info {
+    width: 100%;
+}
+
+.realize__info{
+    padding: 50px 0px;
+}
+
+
+.feedback-third .feedback__fields{
+    gap: 0px;
+    width: 100%;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+.left768{
+    margin-left: 18px !important;
+    margin-right: auto !important;
+    width: max-content;
+
+    box-sizing: border-box;
+}
+
+.left768 span{
+    font-size: 14px;
+}
+
+
+input[class="left768"]{
+    display: block;
+    margin: 0px auto;
+    padding: 0px;
+    width: calc(100% - 36px);
+    box-sizing: border-box;
+}
+
+footer{
+    margin-top: 0px;
+}
+
+.map-info{
+    padding: 46px 18px 49px;
+    display: flex;
+    flex-direction: column;
+}
+
+.map-info__map{
+    order: 0 !important;
+    width: 100%;
+    margin: 0px auto 42px;
+
+}
+.map-info *{
+    order: 1;
+}
+
+.repair__cards__card ul{
+    column-count: 1;
+}
+
+.completed-projects{
+    padding: 107px 0px 90px
+}
