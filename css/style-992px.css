@@ -1,0 +1,44 @@
+.none992 {
+    display: none;
+}
+
+.completed-projects__header {
+    flex-direction: column;
+    gap: 40px;
+}
+
+.completed-projects__slider__element {
+    flex-direction: column;
+}
+
+.completed-projects__info {
+    width: 100%;
+    max-width: none;
+    text-align: center;
+
+}
+
+.completed-projects__projects {
+    max-width: none;
+}
+
+.completed-projects__info__about-project,
+.completed-projects__info>p {
+    margin: 24px 0px;
+}
+
+.completed-projects__info__pagination {
+    width: 200px;
+    left: calc((100% - 200px) / 2);
+    margin: 24px 0px;
+    display: flex;
+    justify-content: center;
+}
+.completed-projects__variants{
+    justify-content: space-around;
+    gap: 0px;
+    width: 100%;
+}
+.completed-projects{
+    padding: 20px 0px 60px;
+}

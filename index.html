@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/flex-variant.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 1300px)" href="css/style-1300px.css">
+    
+    <link rel="stylesheet" media="screen and (max-width: 992px)" href="css/style-992px.css">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/style-768px.css">
 
 </head>
@@ -17,8 +19,8 @@
     <main>
         <section class="container_black">
             <section class="completed-projects w1170 mauto">
-                <div class="d-flex-between">
-                    <h2 class="uppercase font-yeseva title-text">completed <br> projects</h2>
+                <div class="d-flex-between completed-projects__header">
+                    <h2 class="uppercase font-yeseva title-text">completed <br class="none992"> projects</h2>
                     <div class="d-flex-start font-yeseva uppercase completed-projects__variants">
                         <p onclick="openVariant('0')" class="completed-projects__variants__variant title-text title-text_underline pointer">Rostov-on-Don, Admiral</p>
                         <p onclick="openVariant('1')" class="completed-projects__variants__variant pointer">Sochi Thieves</p>
@@ -54,7 +56,7 @@
                                 </div>
                             </div>
                         </div>
-                        <figure class="completed-projects__projects none768">
+                        <figure class="completed-projects__projects  ">
                             <img src="images/slider-1.png" alt="completed project">
                         </figure>
                     </div>
@@ -87,7 +89,7 @@
                                 </div>
                             </div>
                         </div>
-                        <figure class="completed-projects__projects none768">
+                        <figure class="completed-projects__projects  ">
                             <img src="images/slider-2.png" alt="completed project">
                         </figure>
                     </div>
@@ -120,12 +122,12 @@
                                 </div>
                             </div>
                         </div>
-                        <figure class="completed-projects__projects none768">
+                        <figure class="completed-projects__projects  ">
                             <img src="images/slider-3.png" alt="completed project">
                         </figure>
                     </div>
                 </div>
-                <div class="completed-projects__info__pagination d-flex-start none768">
+                <div class="completed-projects__info__pagination d-flex-start  ">
                     <img class="pointer btn-prev" src="images/icons/left.svg" alt="left">
                     <div class="completed-projects__info__pagination__circles d-flex-start">
                         <img onclick="openVariant('0')" class="pointer completed-projects__info__pagination__circles__circle completed-projects__info__pagination__circles__circle_on" src="images/icons/circle.svg" alt="circle">

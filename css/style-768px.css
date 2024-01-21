@@ -258,3 +258,22 @@ footer{
 .completed-projects{
     padding: 107px 0px 90px
 }
+
+
+
+@media screen and (max-width: 676px) {
+    .completed-projects__variants{
+        flex-direction: column;
+        width: 100%;
+        margin: 24px 0px;
+    }
+    .completed-projects__variants__variant{
+        margin: 12px 0px;
+    }
+    .completed-projects__header{
+        gap: 0px;
+    }
+    .completed-projects{
+        padding: 20px 0px 60px;
+    }
+}
